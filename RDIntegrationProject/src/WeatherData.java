@@ -41,27 +41,27 @@ public class WeatherData {
 		return this.nightDescription;
 	}
 	
-	private void setZip(int zip) {
+	public void setZip(int zip) {
 		this.zip = zip;
 	}
 	
-	private void setTemp(int temp) {
+	public void setTemp(int temp) {
 		this.temp = temp;
 	}
 	
-	private void setFeelsLike(int feelsLike) {
+	public void setFeelsLike(int feelsLike) {
 		this.feelsLike = feelsLike;
 	}
 	
-	private void setHumidity(int humidity) {
+	public void setHumidity(int humidity) {
 		this.humidity = humidity;
 	}
 	
-	private void setDayDescription (String dayDescription) {
+	public void setDayDescription (String dayDescription) {
 		this.dayDescription = dayDescription;
 	}
 	
-	private void setNightDescription (String nightDescription) {
+	public void setNightDescription (String nightDescription) {
 		this.nightDescription = nightDescription;
 	}
 }
