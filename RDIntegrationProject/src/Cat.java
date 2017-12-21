@@ -13,6 +13,15 @@ public class Cat extends Animal {
   private String color;
   private boolean isTired;
   
+  /**
+   * Default Constructor
+   */
+  public Cat() {
+    super(1, 1);
+    color = "color";
+    isTired = false;
+  }
+  
   public Cat (int weight, int height, String color, String favFood) {
     super(weight, height);
     
